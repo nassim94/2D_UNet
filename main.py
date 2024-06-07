@@ -17,6 +17,7 @@ img_test.sort()
 os.chdir('/content/mask....')
 lst_mask  = os.listdir('/content/mask....')
 
+
 mask_t = []
 for filename in lst_mask:
    mask_t.append(filename)
@@ -39,7 +40,7 @@ for name in mask_t:
     image = resize(image, (240, 240, 1), mode = 'constant', preserve_range = True)
     # Save images
     y_test[n] = image/255.0
-###################################################
+#########################################################
 #Load train data
 seed = 1
 
