@@ -5,7 +5,7 @@ from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
 from skimage.transform import resize
 from plotting import *
 from UNet import *
-################### test data ####################
+################### test data #####################
 os.chdir('/content/img....')
 lst_test = os.listdir('/content/img....')
 
